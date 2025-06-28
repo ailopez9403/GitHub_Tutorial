@@ -10,3 +10,9 @@ def median(input):
     middle2 = input[(math.floor(length / 2)) - 1]
     median = (middle1 + middle2) / 2
   return median
+
+def mean(input):
+  sum = 0
+  for entry in input:
+    sum += entry
+  return sum / len(input)
